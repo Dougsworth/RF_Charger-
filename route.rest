@@ -1,0 +1,35 @@
+###
+//Shows all ids
+GET http://localhost:3000/datas
+
+
+###
+//Creates new id
+POST http://localhost:3000/datas
+Content-Type: application/json
+
+
+{
+  "current": "0.03",
+  "voltage": "64",
+  "power": "98.9"
+}
+
+
+###
+//Requests specific Id
+GET http://localhost:3000/datas/5fcefcc1a421463d08d54b5a
+###
+//Deletes specific Id
+DELETE http://localhost:3000/datas/5fdccb20d8c1483c346c0c4a
+
+###
+// - Updates specific Id
+PATCH http://localhost:3000/datas/5fdce2297eb9520a806ed10c
+Content-Type: application/json
+
+{
+  "name":"00007",
+  "CurrentReading": "0.09",
+  "VoltageReading": "0.03"
+}
