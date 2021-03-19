@@ -21,7 +21,7 @@ const dataSchema = new mongoose.Schema ({
   },
   Date:{
     type: String,
-    default: Date().to
+    default: Date().toString()
 
 },
 
