@@ -20,8 +20,8 @@ const dataSchema = new mongoose.Schema ({
     required: true 
   },
   Date:{
-    type: Date,
-    default: Date.now
+    type: String,
+    default: Date().toString()
 
 },
 
