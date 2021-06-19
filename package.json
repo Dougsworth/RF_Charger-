@@ -13,6 +13,7 @@
     "create-react-app": "^4.0.3",
     "express": "^4.17.1",
     "mongoose": "^5.11.1",
+    "react-table-6": "^6.11.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
