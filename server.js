@@ -18,7 +18,7 @@ app.use(express.json())
 // app.use('/currents', currentsRouter)//localhost:3000/currents
 
 
-const datasRouter = require('./routes/datas')//matches name of route folder
+const datasRouter = require('./routes/Datas')//matches name of route folder
 app.use('/datas', datasRouter)//localhost:3000/data
 
 
